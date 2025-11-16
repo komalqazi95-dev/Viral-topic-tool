@@ -1,10 +1,27 @@
 
+Viral Topics Tool
+
+
+
+
+
+Make youtube API (Google Cloud Console, and then enable youtube APi services)
+Github repository 
+Make app on streamlit 
+Go to streamlit cloud
+Sign In
+Launch your app
+
+
+Code: 
+
+
 import streamlit as st
 import requests
 from datetime import datetime, timedelta
 
 # YouTube API Key
-API_KEY = "Enter your API Key here"
+API_KEY = "AIzaSyBq4LhOF8AU0j5YP02-gryZ9Ev0VRBgcwk"
 YOUTUBE_SEARCH_URL = "https://www.googleapis.com/youtube/v3/search"
 YOUTUBE_VIDEO_URL = "https://www.googleapis.com/youtube/v3/videos"
 YOUTUBE_CHANNEL_URL = "https://www.googleapis.com/youtube/v3/channels"
@@ -121,3 +138,5 @@ if st.button("Fetch Data"):
 
     except Exception as e:
         st.error(f"An error occurred: {e}")
+
+
