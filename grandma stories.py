@@ -1,3 +1,4 @@
+
 import streamlit as st
 import requests
 from datetime import datetime, timedelta
@@ -16,9 +17,14 @@ days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30
 
 # List of broader keywords
 keywords = [
- "grandmastories", "truestories", "realstories", 
-"grandma revenge stories”,”revenge stories”,reddit relationships stories,betrayal stories", "storytime", "Reddit AP",
-"Family exposed"
+ "GrandmaStories", "Reddit Update", "FamilyBetrayal", "Reddit Relationship", 
+"FamilyGreed", "AITA Update", "ElderStories", "RealLifeStories", "BetrayalStories", 
+"EmotionalTales", "NarratedStories", "LifeLessons", 
+"FamilyTrauma"
+"Cheating Story Actually Happened", "Cheating Story Real", "True Cheating Story", 
+"Reddit grandma Story", "R/Surviving Infidelity", "Surviving Infidelity", 
+"Reddit Grandma", "Old grandma stories", "Reddit AP", 
+"Family stories old grandma"
 ]
 
 # Fetch Data Button
